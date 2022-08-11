@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 40px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 227, 227);
+}
+nav h1{
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: url('https://i.ibb.co/4d8CYtM/background-header.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    color: #fff;
+    padding: 40px;
+}
+na{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 37);
+    padding: 20px; 
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+na h1{
+    color:#ff8e18;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+na .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+na .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+na button{
+    background-color: #ff8e18;
+    color: azure;
+    width: 150px;
+    height: 40px;
+}
+header#h11{ 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: url('https://i.ibb.co/4d8CYtM/background-header.jpg');
+    background-size: cover;
+    width: 700px;
+    height: 250px;
+    border: 2px solid;
+    color: #fff;
+    padding: 40px;
+
+}
+fieldset{
+    width: 500px;
+    height: 825px;
+    color: rgb(88, 86, 86);
+}
+h1#h12{
+    color: #ff8e18;
+}
+hr{
+    width: 90%;
+}
+h1#h13{
+    color: #080808;
+}
+.div{
+    color: #ff8e18;
+}
+button#h14{
+    color: #f5f3f0;
+    background-color: #ff8e18;
+    width: 815px;
+    height: 90px;
+}
+na#b12{
+    width: 1000px;
+    height: 200px;
+    color: #f5f3f0;  
+    align-items: center;
+}
